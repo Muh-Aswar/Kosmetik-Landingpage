@@ -1,0 +1,356 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(asset/font/Nunito-Light.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(asset/font/RobotoMono-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+nav{
+    /* background: #eee444; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+ul{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    height: 40px;
+}
+li{
+    background: #f35656;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+li:hover{
+    border-bottom: 5px solid #fff;
+    transition: 0.1s;
+    overflow: hidden;
+}
+
+
+
+/* ---------- jumbotron ---------- */
+
+#jumbotron{
+    background: #f35656;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron-container{
+    /* background: #44b8ee; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jumbotron-text{
+    width: 40%;
+    color: #fff;
+}
+.jumbotron-text h1{
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+.jumbotron-text>p{
+    margin: 20px 0;
+    letter-spacing: 0.1rem;
+}
+.jumbotron-text button{
+    margin: 10px 0;
+    border: none;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee444;
+}
+.jumbotron-text button p{
+    font-family: "Roboto";
+}
+.jumbotron-text button img{
+    width: 20px;
+    margin: 0 5px;
+}
+.jumbotron-model{
+    width: 60%;
+    /* background: #eee444; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jumbotron-model .wraper-model{
+    width: 80%;
+}
+.wraper-model>img{
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 2%;
+    border-start-start-radius: 40%;
+    border-end-end-radius: 2%;
+}
+/* ---------- End jumbotron ---------- */
+
+
+
+/* ---------- Brand ---------- */
+#brand{
+    /* background: #eee444; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.wraper-header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: #fff;
+}
+.header-brand{
+    /* width: 30%; */
+    height: 120px;
+    /* background: #eee4e4be; */
+    /* background: #e27474; */
+    /* padding: 10px 30px; */
+    text-align: center;
+    margin-top: 20px;
+}
+.header-brand h2{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.header-brand>p{
+    font-size: 0.9rem;
+}
+
+.content-brand{
+    /* background: #56f356; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-brand .wraper-content{
+    /* background: #e27474; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+.wraper-content .container-content{
+    background: #fdbebe;
+    height: 300px;
+    width: 200px;
+    margin: 0 10px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border: 2px solid #fdbebe;
+
+    /* box-shadow: 1px 1px 0;    */
+}
+.container-content img{
+    /* width: 200px; */
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+/* .container-content>p{
+    background: #eee444;
+    margin-top: 10px;
+} */
+
+/* ---------- End Brand ---------- */
+
+
+/* ---------- Brand Artikel ---------- */
+#artikel-brand{
+    background: #f35656;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wraper-artikel{
+    /* background: #446cee; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.wraper-artikel .img-artikel{
+    /* background: #446cee; */
+    width: 60%;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.wraper-artikel .img-artikel img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+
+.wraper-artikel .content-artikel{
+    width: 40%;
+    color: #fff;
+}
+.wraper-artikel .content-artikel h2{
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 15px;
+}
+.wraper-artikel .content-artikel p{
+    letter-spacing: 0.05rem;
+}
+.wraper-artikel .content-artikel span{
+    background: #f35656;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    margin: 20px 0;
+    border-radius: 25px;
+    border: 1px solid #eee444;
+    cursor: pointer;
+    /* color: #000; */
+}
+.wraper-artikel .content-artikel span:hover{
+    background: #eee444;
+    color: #f35656;
+}
+.wraper-artikel .content-artikel span>img{
+    width: 20px;
+}
+
+/* ---------- End Brand Artikel ---------- */
+
+
+
+
+/* ---------- Footer ---------- */
+/* footer{
+    background: #44a1ee;
+    width: 100%;
+    padding: 20px;
+} */
+.footer-container{
+    background: #eee444;
+    width: 100%;
+    /* height: 300px; */
+    text-align: center;
+}
+.footer-container h5{
+    padding:25px 0;
+}
+.wraper-sosmed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wraper-sosmed .sosmed{
+    /* background: #fdbebe; */
+    display: flex;
+    justify-content: center;
+}
+.sosmed span{
+    margin: 10px 30px;
+}
+.sosmed span>img{
+    width: 25px;
+    object-fit: cover;
+}
+.footer-container .wraper-about-footer{
+    display: flex;
+    justify-content: center;
+}
+.wraper-about-footer .about-footer{
+    /* background: #fdbebe; */
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.about-footer .tentang-kami{
+    /* background: purple; */
+    position: relative;
+    width: 25%;
+    text-align: left;
+}
+.about-footer .tentang-kami>span{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 18%;
+    width: 50px;
+    height: 3px;
+    background: #f35656;
+}
+.about-footer h2{
+    margin-bottom: 30px;
+}
+.about-footer .tentang-kami>p{
+    line-height: 0.5rem;
+    margin-top: 20px;
+}
+.about-footer .layanan{
+    /* background: palegreen; */
+    position: relative;
+    width: 25%;
+    text-align: left;
+}
+.about-footer .layanan>span{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 18%;
+    width: 50px;
+    height: 3px;
+    background: #f35656;
+}
+.about-footer .layanan>p{
+    line-height: 0.5rem;
+    margin-top: 20px;
+}
+
+.about-footer .newsletter{
+    width: 35%;
+    text-align: left;
+}
+.newsletter .wraper-email{
+    margin-top: 20px;
+}
+.newsletter .wraper-email input,button{
+    padding: 2px 5px;
+}
+
+/* ---------- End Footer ---------- */
+
