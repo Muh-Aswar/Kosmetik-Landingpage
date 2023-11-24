@@ -268,7 +268,7 @@ li:hover{
     /* height: 300px; */
     text-align: center;
 }
-.footer-container h5{
+.footer-container h2{
     padding:25px 0;
 }
 .wraper-sosmed{
@@ -281,12 +281,13 @@ li:hover{
     display: flex;
     justify-content: center;
 }
-.sosmed span{
-    margin: 10px 30px;
+.wraper-sosmed>.sosmed>span{
+    margin: 10px 20px;
 }
-.sosmed span>img{
+.sosmed>span>img{
     width: 25px;
     object-fit: cover;
+    cursor: pointer;
 }
 .footer-container .wraper-about-footer{
     display: flex;
@@ -309,13 +310,13 @@ li:hover{
     content: "";
     position: absolute;
     left: 0;
-    top: 18%;
+    top: 25%;
     width: 50px;
     height: 3px;
     background: #f35656;
 }
 .about-footer h2{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 .about-footer .tentang-kami>p{
     line-height: 0.5rem;
@@ -331,7 +332,7 @@ li:hover{
     content: "";
     position: absolute;
     left: 0;
-    top: 18%;
+    top: 25%;
     width: 50px;
     height: 3px;
     background: #f35656;
@@ -350,6 +351,39 @@ li:hover{
 }
 .newsletter .wraper-email input,button{
     padding: 2px 5px;
+    height: 35px;
+    border: none;
+}
+.newsletter .wraper-email button{
+    width: 100px;
+    margin-left: 5px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border: 2px solid #f35656;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    background: #f35656;
+    color: #fff;
+    cursor: pointer;
+}
+.newsletter .wraper-email button:hover{
+    background: #eee444;
+    color: #000;
+}
+.footer-container .payment{
+    margin-top: 30px;
+    padding: 20px 0;
+}
+.footer-container .payment>h2{
+    padding: 10px 0;
+}
+.footer-container .payment .icon-bank{
+    display: flex;
+    justify-content: center;
+}
+.footer-container .payment .icon-bank>img{
+    width: 60px;
+    margin: 5px 15px;
 }
 
 /* ---------- End Footer ---------- */
